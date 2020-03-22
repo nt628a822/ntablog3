@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://pedantic-swartz-f1ece7.netlify.com"
 title = "nta blog"
 theme = "airspace-hugo"
 # post pagination
