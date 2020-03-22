@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: master
+  repo: nt628a822/ntablog2
+
+# publish_mode: editorial_workflow
+
+media_folder: "static"
+
+public_folder: "/public"
+
+collections:
+  - name: "blog" # 管理画面のパスで使う　例：/admin/collections/blog
+    label: "Blog" # 管理画面のサイドバーで使う
+    folder: "content/blog" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
+    create: true # 新しいページを作ることを許可する
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Markdownのファイル名　例：YYYY-MM-DD-title.md
+    fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "公開日", name: "date", widget: "datetime"}
+      - {label: "tags", name: "tags", widget: "list"}
+      - {label: "サムネイル画像", name: "thumbnail", widget: "image"}
+#      - {label: "レーティング", name: "rating", widget: "number"}
+      - {label: "本文", name: "body", widget: "markdown"}
+
+  - name: "post"
+    label: "Post"
+    folder: "content/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "公開日", name: "date", widget: "datetime"}
+      - {label: "サムネイル画像", name: "thumbnail", widget: "image"}
+#      - {label: "レーティング", name: "rating", widget: "number"}
+      - {label: "本文", name: "body", widget: "markdown"}
