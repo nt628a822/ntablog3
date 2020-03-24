@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Service on nta blog</title>
-    <link>https://examplesite.com/service/</link>
+    <link>https://pedantic-swartz-f1ece7.netlify.com/service/</link>
     <description>Recent content in Service on nta blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     
-	<atom:link href="https://examplesite.com/service/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pedantic-swartz-f1ece7.netlify.com/service/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
