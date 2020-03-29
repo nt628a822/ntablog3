@@ -6,28 +6,10 @@
     <description>Recent content in Categories on nta blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 29 Mar 2020 09:20:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 06:35:25 +0000</lastBuildDate>
     
 	<atom:link href="https://pedantic-swartz-f1ece7.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>hoge</title>
-      <link>https://pedantic-swartz-f1ece7.netlify.com/categories/hoge/</link>
-      <pubDate>Sun, 29 Mar 2020 09:20:11 +0000</pubDate>
-      
-      <guid>https://pedantic-swartz-f1ece7.netlify.com/categories/hoge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://pedantic-swartz-f1ece7.netlify.com/categories/test/</link>
-      <pubDate>Sun, 29 Mar 2020 09:20:11 +0000</pubDate>
-      
-      <guid>https://pedantic-swartz-f1ece7.netlify.com/categories/test/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>nt</title>
@@ -35,6 +17,15 @@
       <pubDate>Thu, 26 Mar 2020 06:35:25 +0000</pubDate>
       
       <guid>https://pedantic-swartz-f1ece7.netlify.com/categories/nt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://pedantic-swartz-f1ece7.netlify.com/categories/test/</link>
+      <pubDate>Thu, 26 Mar 2020 06:35:25 +0000</pubDate>
+      
+      <guid>https://pedantic-swartz-f1ece7.netlify.com/categories/test/</guid>
       <description></description>
     </item>
     
