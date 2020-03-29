@@ -20,7 +20,8 @@ collections:
       - {label: "公開日", name: "date", widget: "datetime"}
       - {label: "カテゴリー", name: "categories", widget: "list"}
       - {label: "tags", name: "tags", widget: "list"}
-      - {label: "サムネイル画像", name: "thumbnail", widget: "image"}
+      - {label: "image", name: "image", widget: "image"}
+      - {label: "bg_image", name: "bg_image", widget: "bg_image"}
 #      - {label: "レーティング", name: "rating", widget: "number"}
       - {label: "本文", name: "body", widget: "markdown"}
 
