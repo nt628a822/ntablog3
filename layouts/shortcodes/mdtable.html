@@ -1,7 +1,7 @@
-<!-- {{if (.Get "class")}} -->
+{{if (.Get "class")}}
     <div class = "{{ .Get "class" }}">
-<!-- {{ else }}
+{{ else }}
     <div class = "simple-table">
-{{ end }} -->
+{{ end }}
 {{.Inner | markdownify }}
 </div>
