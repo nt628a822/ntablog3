@@ -5,7 +5,7 @@ backend:
 
 # publish_mode: editorial_workflow
 
-media_folder: "static/images"
+media_folder: "images/"
 
 public_folder: "/public"
 
@@ -20,11 +20,12 @@ collections:
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "公開日", name: "date", widget: "datetime"}
       - {label: "書き手", name: "author", widget: "string"}
-      - {label: "カテゴリー", name: "categories", widget: "list"}
-      - {label: "tags", name: "tags", widget: "list"}
       - {label: "image", name: "image", widget: "image"}
       - {label: "bg_image", name: "bg_image", widget: "image"}
+      - {label: "カテゴリー", name: "categories", widget: "list"}
+      - {label: "tags", name: "tags", widget: "list"}
       - {label: "説明", name: "description", widget: "string"}
+      - {label: "type", name: "type", widget: "string"}
       - {label: "本文", name: "body", widget: "markdown"}
 
 #   - name: "post"
